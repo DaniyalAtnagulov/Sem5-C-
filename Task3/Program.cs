@@ -28,7 +28,7 @@ void GetArray(double[] arraynumbers)
 {
     for(int i = 0; i < arraynumbers.Length; i++)
         {
-            arraynumbers[i] = Convert.ToDouble(new Random().Next(100,1000)) / 100;
+            arraynumbers[i] = Convert.ToDouble(new Random().Next(-1000,1000)) / 100;
             
             Console.Write($"{arraynumbers[i]} ");
         }
